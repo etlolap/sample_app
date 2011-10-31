@@ -39,4 +39,7 @@ group :test do
 	gem 'webrat'
 end
 
+group :production do
+	gem 'pg'
+end
 gem 'therubyracer'
