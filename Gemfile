@@ -39,9 +39,12 @@ group :test do
 	gem 'rspec-rails'
 	gem 'webrat'
 	gem 'spork'
+	gem 'factory_girl_rails'
 end
 
 group :production do
 	gem 'pg'
 end
+
 gem 'therubyracer'
+gem 'gravatar_image_tag'
