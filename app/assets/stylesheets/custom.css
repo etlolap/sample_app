@@ -97,7 +97,7 @@ a.signup_button {
 
 .round {
   -moz-border-radius:    10px;
-  -webkit-border-radius: 10px;
+  -webkit-border-radius: 10px;	
   border-radius:         10px;
 }
 
@@ -113,3 +113,25 @@ footer nav {
   float: none;
 }
 
+/* User show page */
+table.profile{
+	width: 100%;
+	margin-bottom: 0;
+}
+
+td.main{
+	width: 70%
+	padding: lem;
+}
+
+td.sidebar {
+	width: 30%;
+	padding: 1em;
+	vertical-align: top;
+	background: #ffc;
+}
+
+.profile img.gravatar{
+	border: lpx solid #999
+	margin-bottom: -15px
+}
