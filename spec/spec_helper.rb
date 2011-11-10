@@ -27,6 +27,11 @@ Spork.prefork do
 		# examples within a trnsaction, remove the following line or assign false
 		# instead of true.
 		config.use_transactional_fixtures = true
+		
+		# Enable the function to all tests
+		def test_sign_in(user)
+			controller.sign_in(user)
+		end
 	end
 end	
 	
