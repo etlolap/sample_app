@@ -32,6 +32,7 @@ group :development do
 	gem 'rspec-rails'
 	gem 'sqlite3'
 	gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
+	gem 'faker', '0.3.1'
 end
 
 group :test do
@@ -48,3 +49,4 @@ end
 
 gem 'therubyracer'
 gem 'gravatar_image_tag'
+gem 'will_paginate'
